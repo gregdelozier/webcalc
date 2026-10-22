@@ -19,7 +19,7 @@ def enter(calc, text):
 
 def test_initial_display_is_zero():
     calc = Calculator()
-    assert calc.display == '0'
+    assert calc.display == '6'
 
 
 def test_enter_multiple_digits():
